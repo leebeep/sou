@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <link rel="icon" href="icon/192.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="icon/300.png" />
+    <meta name="msapplication-TileImage" content="icon/300.png" />
+    <link rel="shortcut icon" href="icon/32.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="full-screen" content="yes">
+    <!--UC强制全屏-->
+    <meta name="browsermode" content="application">
+    <!--UC应用模式-->
+    <meta name="x5-fullscreen" content="true">
+    <!--QQ强制全屏-->
+    <meta name="x5-page-mode" content="app">
+    <!--QQ应用模式-->
+    <title>简单搜索</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://at.alicdn.com/t/font_1230786_59ub5vczww4.js"></script>
+    <script src="https://cdnjs.loli.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="sou.js"></script>
+</head>
+
+<body>
+    <div id="menu"><i></i></div>
+    <div class="list closed">
+        <ul>
+          <!------>
+            <li class="title"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-youku"></use></svg> Python</li>
+            <li><a rel="nofollow" href="https://github.com/jobbole/awesome-python-cn" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-github"></use></svg>awesome</a></li>
+            <li><a rel="nofollow" href="https://www.django.cn/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-zhifeiji"></use></svg>django中文</a></li>
+            <li><a rel="nofollow" href="https://selenium-python-zh.readthedocs.io/en/latest/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-ai-tool"></use></svg>Selenium</a></li>
+            <li><a rel="nofollow" href="https://dash-gallery.plotly.host/Portal/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-icon-test"></use></svg>dash</a></li>
+            <li><a rel="nofollow" href="https://scrapy.org/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-base64"></use></svg>scrapy</a></li>
+          <!------> 
+            <li class="title"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-bing"></use></svg> R语言</li>
+            <li><a rel="nofollow" href="https://github.com/qinwf/awesome-R" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-github"></use></svg>awesome</a></li>
+            <li><a rel="nofollow" href="https://shiny.rstudio.com/gallery/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-S"></use></svg>shiny</a></li>
+            <li><a rel="nofollow" href="https://www.r-pkg.org/starred" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-acfun"></use></svg>R包</a></li>
+          <!------>
+            <li class="title"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-msg"></use></svg> 社交资讯</li>
+            <li><a rel="nofollow" href="https://www.weibo.com" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-weibo"></use></svg>微博</a></li>
+            <li><a rel="nofollow" href="https://www.zhihu.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-zhihu"></use></svg>知乎</a></li>
+            <li><a rel="nofollow" href="https://www.douban.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-douban"></use></svg>豆瓣</a></li>
+            <li><a rel="nofollow" href="https://www.jianshu.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-jianshu"></use></svg>简书</a></li>
+          <!------>
+            <li class="title"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-sheji"></use></svg> 设计视觉</li>
+            <li><a rel="nofollow" href="https://web.yyv.me/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-daohang1"></use></svg>设计导航</a></li>
+            <li><a rel="nofollow" href="https://huaban.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-huaban"></use></svg>花瓣</a></li>
+            <li><a rel="nofollow" href="https://www.zcool.com.cn/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-zhanku"></use></svg>站酷</a></li>
+            <li><a rel="nofollow" href="https://www.iconfont.cn/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-iconfont"></use></svg>阿里图标</a></li>
+          <!------>
+            <li class="title"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-youtube"></use></svg> 开发</li>
+            <li><a rel="nofollow" href="http://www.w3school.com.cn/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-h5"></use></svg>W3school</a></li>
+            <li><a rel="nofollow" href="https://github.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-github"></use></svg>Github</a></li>
+            <li><a rel="nofollow" href="https://www.52pojie.cn/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-theater-masks"></use></svg>吾爱破解</a></li>
+            <li><a rel="nofollow" href="https://segmentfault.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-msg"></use></svg>SF思否</a></li>
+        </ul>
+    </div>
+    <div class="mywth" style="width: 320px;">
+       <div id="he-plugin-simple"></div>
+        <script>
+        WIDGET = {
+          CONFIG: {
+            "modules": "01234",
+            "background": 5,
+            "tmpColor": "4A4A4A",
+            "tmpSize": "12",
+            "cityColor": "4A4A4A",
+            "citySize": "12",
+            "aqiSize": "12",
+            "weatherIconSize": "16",
+            "alertIconSize": "14",
+            "padding": "0px 5px 0px 5px",
+            "shadow": "1",
+            "language": "auto",
+            "fixed": "false",
+            "vertical": "middle",
+            "horizontal": "left",
+            "key": "8b21767309324253afe012f7747bdb8f"
+          }
+        }
+        </script>
+        <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script></div>
+        <!--和风天气插件-->
+
+    <div id="content">
+        <div class="con">
+            <div class="shlogo"></div>
+            <div class="sou">
+                <form action="https://www.baidu.com/s?wd=" method="form" target="_self">
+                    <input class="wd" type="text" placeholder="为技术而生" name="q" x-webkit-speech lang="zh-CN">
+                    <button><svg class="icon" style=" width: 21px; height: 21px; opacity: 0.5;" aria-hidden="true"><use xlink:href="#icon-sousuo"></use></svg></button>
+                </form>
+                <ul>
+                    <li data-s="baidu" target="_blank"><i style="background-image: url(icon/baidu.svg);"></i>百度一下</li>
+                    <li data-s="google" target="_blank"><i style="background-image: url(icon/g.svg);"></i>Google</li>
+                </ul>
+            </div>
+        </div>
+        <div class="foot">© 2020 by <a href="http://i.talkbeep.com">公众号：大圣哔哔</a> . All rights reserved.</div>
+    </div>
+    <!--
+作者:李文军
+参考github：https://github.com/5iux/sou
+日期：20200305
+版权所有，请勿删除
+-->
+</body>
+
+</html>
